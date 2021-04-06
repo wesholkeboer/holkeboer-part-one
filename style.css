@@ -1,0 +1,121 @@
+@import url(
+"https://fonts.googleapis.com/css?family=Bungee&display=swap");
+
+body {
+    font-family: "Bungee", sans-serif;
+    padding: 0 5%;
+}
+
+a  {
+    color: #7944e6;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+h1 {
+    margin-bottom: -6px;
+}
+
+p {
+    font-size: 130%;
+    line-height: 1.2;
+    padding-bottom: 30px;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-item a {
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav-item a {
+    display: flex;
+}
+
+.topnav a:hover {
+    color: #10fdff;
+}
+
+.about {
+    background-color: #ff00ff;
+    padding: 0 30px 0 30px;
+}
+
+.about h1 {
+    line-height: 0;
+}
+
+#truck {
+    width: 60%;
+    padding: 40px 0 0 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.rectangle {
+    border-width: 7px;
+    border-style: solid;
+    border-color: #7944e6;
+    width: 65%;
+    margin: 25px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.rectangle h1 {
+    line-height: 1.8;
+}
+
+.foods {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .about h1 {
+        padding: 50px 0 0 0;
+    }
+
+    .about-elements {
+        width: 50%;
+        padding: 0 20px;
+    }
+
+    #truck {
+        width: 90%;
+        padding: 20px 0;
+    }
+    
+    .rectangles {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 20px;
+        padding: 5px;
+        gap: 5%;
+    }
+}
